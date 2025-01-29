@@ -174,7 +174,7 @@
  a {
     cursor: pointer;
  }
- @media (min-width:900px) {
+ @media (min-width:1000px) {
     section, header {
         margin-bottom: 10rem;
         place-self: center;
@@ -233,8 +233,8 @@
     }
     .supercharge-list {
         display: flex;
-        gap: 2rem;
-        justify-items: center;
+        gap: 1rem;
+        justify-items: space-evenly;
     }
     #slight-adjustment {
         position: relative;
@@ -242,7 +242,7 @@
     }
     .company__icons {
         display: flex;
-        gap: 5rem;
+        gap: 3rem;
     }
     .c-icon {
         margin: 0;
