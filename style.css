@@ -180,6 +180,9 @@
     cursor: pointer;
  }
  @media (min-width:1000px) {
+  .website__container {
+    justify-items: center;
+  }
     section, header {
         margin-bottom: 10rem;
         place-self: center;
@@ -193,6 +196,7 @@
     p, li {
         font-size: 1.125rem;
         max-width: 700px;
+        place-self: center;
     }
     .header-footer__buttons-flexbox {
         flex-direction: row;
