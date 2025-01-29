@@ -52,6 +52,7 @@
     height: 100%;
     display: grid;
     text-align: center;
+    place-content: center;
     font-family: var(--ff-main);
     font-size: var(--ff-size);
   }
